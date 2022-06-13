@@ -18,7 +18,6 @@ enum StateOfStack<S>{
 }
 
 
-
 //the initializer: a stack is always initizlied as empty 
 
 impl <S> Default for Stack<S>{
@@ -31,10 +30,6 @@ impl <S> Default for Stack<S>{
         }
     }
 }
-
-
-
-
 
 //define a struct called Stack to implement stack data structure  
 
@@ -113,11 +108,6 @@ impl <S> Stack<S>{
 }
 
 
-
-
-
-
-
 //Driver code 
 
 //start with an empty stack st and perform the following functions in order.
@@ -166,12 +156,7 @@ fn main() {
     //println!("{:?}", st.peek()); 
     //the deleted and returned value is 6. test passed. 
     
-
-
 }
-
-
-
 
 //Some extra tests
 
@@ -217,9 +202,5 @@ fn ExtraTests(){
     TestingStack.pop(); 
     //println!("{:?}", TestingStack.peek()); 
     //the deleted and returned value is 16. test passed. 
-
-    
-    
-    
     
 }
